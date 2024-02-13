@@ -7,7 +7,7 @@ app = 'docker-nginx3'
 primary_region = 'nrt'
 
 [build]
-	image = "nginx"
+	image = "hyunsungjoo/nginx-my-html:0.2.0"
 
 [http_service]
   internal_port = 80
